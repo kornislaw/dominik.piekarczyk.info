@@ -1,0 +1,6 @@
+# Pelican's output folder. It should be regenerated from source files located in the content directory.
+
+.DS_Store
+backup
+content/.ipynb_checkpoints
+output
