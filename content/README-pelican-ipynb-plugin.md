@@ -2,6 +2,8 @@ Title: IPyNB Plugin README
 Subtitle: README for IPython Notebook plugin for Pelican
 Date: 2015-09-26
 Tags: test
+Illustration: iograph2.jpg
+Status: draft
 
 # Pelican plugin for blogging with IPython Notebooks
 

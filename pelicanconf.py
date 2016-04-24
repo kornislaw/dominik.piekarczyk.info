@@ -3,13 +3,14 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Dominik Piekarczyk'
-SITENAME = u'Pelican Test Blog'
+SITENAME = u'dominik.piekarczyk.info'
 SITEURL = ''
 
 
-THEME = 'nest-korn'
-DISQUS_SITENAME = "blog-notmyidea"
+# EXTRA_TEMPLATES_PATHS = ['/Users/dominik/Documents/dev/tutorial-pelican/pelican-themes/']
 
+THEME = 'nest-korn'
+DISQUS_SITENAME = "towardsdatascience"
 
 PATH = 'content'
 
@@ -26,37 +27,37 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('Molivier', 'https://github.com/molivier'),)
+         ('Python.org', 'http://python.org/'),)
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/kornislaw'),
-          ('github', 'http://github.com/kornislaw'),)
+          ('github', 'http://github.com/kornislaw'),
+          ('linked', 'https://www.linkedin.com/in/dominik-piekarczyk-4ab1b83')
+          )
 
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 25
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 # IPyNb plugin settings:
 MARKUP = ('md', 'ipynb')
-PLUGIN_PATHS = ["plugins", "./plugins"]
-PLUGINS = ["ipynb"]
-
-
+PLUGIN_PATHS = ["plugins", "./plugins", '/Users/dominik/Documents/dev/tutorial-pelican/pelican-plugins/']
+PLUGINS = ["ipynb", 'better_figures_and_images']
 
 # NEST Template
 THEME = 'nest-korn'
-SITESUBTITLE = u'My Awesome Blog'
+SITESUBTITLE = u'Data Science Info Dump'
 # Minified CSS
 #NEST_CSS_MINIFY = True
 # Add items to top menu before pages
 MENUITEMS = [('Homepage', '/'),('Categories','/categories.html')]
 # Add header background image from content/images : 'background.jpg'
 NEST_HEADER_IMAGES = ''
-NEST_HEADER_LOGO = '/images/logo.svg'
+#NEST_HEADER_LOGO = '/images/logo.svg'
+NEST_HEADER_LOGO = '/images/compuhead.png'
+
 # Footer
 NEST_SITEMAP_COLUMN_TITLE = u'Sitemap'
 NEST_SITEMAP_MENU = [('Archives', '/archives.html'),('Tags','/tags.html'), ('Authors','/authors.html')]
@@ -66,11 +67,11 @@ NEST_SOCIAL_COLUMN_TITLE = u'Social'
 NEST_LINKS_COLUMN_TITLE = u'Links'
 NEST_COPYRIGHT = u'&copy; blogname 2015'
 # Footer optional
-NEST_FOOTER_HTML = '&copy; 2015 dominik.piekarczyk.info'
+NEST_FOOTER_HTML = '&copy; 2015-2016 dominik.piekarczyk.info'
 # index.html
 NEST_INDEX_HEAD_TITLE = u'Homepage'
-NEST_INDEX_HEADER_TITLE = u'My Awesome Blog'
-NEST_INDEX_HEADER_SUBTITLE = u'Smashing The Stack For Fun And Profit'
+NEST_INDEX_HEADER_TITLE = SITESUBTITLE
+NEST_INDEX_HEADER_SUBTITLE = u'A notebook for recording and sharing valuable information. Simultaneously.'
 NEST_INDEX_CONTENT_TITLE = u'Last Posts'
 # archives.html
 NEST_ARCHIVES_HEAD_TITLE = u'Archives'
