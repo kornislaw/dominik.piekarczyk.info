@@ -1,0 +1,23 @@
+Title: Why a blog? Why a static website? Why Pelican?
+Subtitle: Motivations to start a blog, to use a static website generator and Pelican in particular.
+Category: Website
+Tags: www, pelican
+Date: 2015-09-20
+
+## Why a blog?
+
+> I'm continuously learning (and sharing it when I got it).
+
+This is a tagline of my colleague, but I could just have the same one. 
+This is one of three reasons I started this blog - I like sharing knowledge. 
+It also helps me to memorize and systematize my knowledge and (which helped me several times already) to access it from anywhere.
+
+I am not advertising this site at all, in fact this blog is now under a temporary domain, which is hard to memorize. But if you have just googled and answer for your issue - I am happy about it!
+
+## Why a static website hosting?
+
+See [S3 for static website hosting](/s3-for-static-website-hosting.html).
+
+## Why Pelican?
+
+There are many website static generators available on the internet, but I chose Pelican because from those written in Python it is the most popular one. That's it. So far so good.
