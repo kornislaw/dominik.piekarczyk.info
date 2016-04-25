@@ -71,7 +71,7 @@ NEST_FOOTER_HTML = '&copy; 2015-2016 dominik.piekarczyk.info'
 # index.html
 NEST_INDEX_HEAD_TITLE = u'Homepage'
 NEST_INDEX_HEADER_TITLE = SITESUBTITLE
-NEST_INDEX_HEADER_SUBTITLE = u'A notebook for recording and sharing valuable information. Simultaneously.'
+NEST_INDEX_HEADER_SUBTITLE = u'A notebook for recording and sharing valuable information. 2 in 1.'
 NEST_INDEX_CONTENT_TITLE = u'Last Posts'
 # archives.html
 NEST_ARCHIVES_HEAD_TITLE = u'Archives'

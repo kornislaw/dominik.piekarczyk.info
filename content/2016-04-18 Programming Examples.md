@@ -1,7 +1,7 @@
-Title: Me As A Developer
-Date: 2016-04-18
+Title: Dev examples
 Subtitle: A list of programming activities I recently performed.
-Slug: testing-pelican-ipynb
+Slug: cv-programming
+Date: 2016-04-18
 Category: CV
 Tags: cv, python, programming
 Author: Dominik Piekarczyk
@@ -21,7 +21,7 @@ profitability at a level reaching 2-3% in a single cycle with a near-to-zero ris
 
 Technical details worth highlighting:
 
-* it is implemented in Python, compatible with both `2.7.10` and `3.5.1`
+* it is implemented in Python, compatible with both `2.7` and `3.5`
 * uses a console interface,
 * applies OOP: the abstract market and inheriting implementations; which allows to easily shuffle the markets,
 * communicates with markets' APIs,
@@ -37,14 +37,41 @@ Technical details worth highlighting:
 Twitter Thought Leaders
 -----------------------
 
-I was asked to prepare a list of top thought leaders in the blockchain space. We had a starting list of candidates -
-people active in this space and well known in the community. But we wanted to make sure we're not missing anybody
-important.
+#### tl;dr
 
-The idea was to use Twitter and its API to find out who is following who. Itratively e
-By doing this we could
+The goal was to define a list of the top thought leaders in the blockchain community.
+It was done by analysing the network of Twitter accounts of the starting list of leaders
+and by following their relationships to discover additional ones. Then they were ranked by
+the number of followers from the list.
 
-In effect we got a list that su
+#### In detail
+
+The goal was to define a list of the top thought leaders in the blockchain space.
+
+We had a starting list of candidates - a short list of authorities recognized by the community.
+
+Since extensive use of Twitter is a very common thing among these people, I decided to go this way.
+
+The idea was the following: if recognized leaders follow a twitter user, he/she is likely another leader in this space.
+
+I used Twitter's API to calculate numbers of followers and who is following who within the shortlist.
+Then we were adding new users iteratively.
+After a few iterations we had a long list of potential leaders
+and then we calculated the rank of top leaders by their popularity within the community.
+
+In the end we proved ourselves that our initial list was quite comprehensive,
+but we also found a few new interesting people who we added to the top list.
+
+Blockchain was just a focus topic, but this may be applied to finding thought leaders in any community.
+
+Another advantage is you can rerun this software cyclically to adjust the list as the network changes.
+
+
+#### Tech details
+
+* Keywords: `Python`, `Tweepy`, `Twitter API`, `rest`, `json`
+* We used a `cli` interface and then `ipython notebooks` for the analysis.
+
 
 Crunchbase Scraper
 ------------------
@@ -58,3 +85,9 @@ Tech details:
 * Implemented both `web` and `cli` interfaces
 
 
+Reporting data transformation
+-----------------------------
+
+Python scripts for cleaning, transforming and merging data in monthly reporting processes that were performed manually before.
+
+`Jupyter notebooks` were used to combine scripts with the process documentation.
