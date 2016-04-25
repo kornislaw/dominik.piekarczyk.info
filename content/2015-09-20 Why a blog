@@ -8,7 +8,7 @@ Date: 2015-09-20
 
 > I'm continuously learning (and sharing it when I got it).
 
-This is a tagline of my colleague, but I could just have the same one. 
+This is my colleague's tagline, but I could just have the same one. 
 This is one of three reasons I started this blog - I like sharing knowledge. 
 It also helps me to memorize and systematize my knowledge and (which helped me several times already) to access it from anywhere.
 
@@ -18,6 +18,13 @@ I am not advertising this site at all, in fact this blog is now under a temporar
 
 See [S3 for static website hosting](/s3-for-static-website-hosting.html).
 
+
+If you would like to know more about advantages of static websites generators, especially for Python, 
+I advise you to listen to this podcast [Podcast.__init__: Episode 20 - Static Site Generators](http://podcastinit.com/static-site-generators.html), 
+where authors of the most popular SWGs: Pelican and Nicola, discuss it in details.
+
 ## Why Pelican?
 
-There are many website static generators available on the internet, but I chose Pelican because from those written in Python it is the most popular one. That's it. So far so good.
+There are many website static generators available on the internet, but I chose Pelican because from those written in Python it is the most popular one. 
+Active development, a vibrant community and many available plugins - it's convincing enough.
+
