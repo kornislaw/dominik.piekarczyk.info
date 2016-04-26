@@ -1,7 +1,7 @@
 Title: Web mining with Scrapy
 Subtitle: Exploring capabilities of the most popular crawling tool <br/>(work in progress...)
 Slug: dev-scrapy
-Category: Web mining
+Category: Data science
 Tags: scrapy, web mining, crawling, python
 Date: 2016-04-13
 
