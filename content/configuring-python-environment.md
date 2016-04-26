@@ -1,5 +1,5 @@
 Title: Python env for DS
-Subtitle: So if I don't write anything here, the tags' div will not be in line...
+Subtitle:
 Date: 2015-10-19 17:20
 Category: Data Science
 Tags: programming, python, environment
@@ -49,12 +49,3 @@ echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.zshrc
 
 #### More info
 * [Get code into Bitbucket fast using Atlassian SourceTree or the command line](https://answers.atlassian.com/questions/135886/how-to-push-repo-from-git)
-
-
-## Backlog 
-
-(to be moved somewhere else)
-
-```bash
-pip install -r requirements.txt
-```

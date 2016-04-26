@@ -21,16 +21,16 @@ profitability at a level reaching 2-3% in a single cycle with a near-to-zero ris
 
 Technical details worth highlighting:
 
-* it is implemented in Python, compatible with both `2.7` and `3.5`
-* uses a console interface,
-* applies OOP: the abstract market and inheriting implementations; which allows to easily shuffle the markets,
-* communicates with markets' APIs,
+* it is implemented in `Python`, compatible with both `2.7` and `3.5`
+* uses a console interface (I discovered [docopt](http://docopt.org) and instantly fell in love),
+* applies `OOP`: the abstract market and inheriting implementations; which allows to easily shuffle the markets,
+* communicates with markets' `APIs`,
 * and scrapes web data from exchanges not providing any APIs,
-* it (naturally) uses git as a SCM,
-* from which updates are being deployed to a Raspberry PI,
+* it (naturally) uses `git` as an SCM,
+* from which updates are being deployed to a `Raspberry PI`,
 * which sits at my home under the TV set and every few seconds collects data from all tracked markets,
 * and analyses market changes,
-* and logs the changes in a format ready to be consumed my Tableau dashboards for visual analysis,
+* and logs the changes in a format ready to be consumed my `Tableau` dashboards for visual analysis,
 * and automatically reacts (or may react) to appearing opportunities with simultaneous transactions.
 
 
