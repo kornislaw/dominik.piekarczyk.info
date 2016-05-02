@@ -110,7 +110,28 @@ analyzing, and distributing intelligence about products, customers, competitors,
 to support executives and managers making strategic decisions for an organization.
 
 
-## Questions
+## Answers to possible questions ##
+
+* Why did you decide to apply to this role?
+    * I am fascinated with this model "From Data to Wisdom". You start with raw data, then link pieces with relationship, therefore converting it to information. Then you recognize patterns, so you're converting it to knowledge. Then you apply the knowledge as your wisdom.
+        * What's important in most cases data is out there, on the internet. It is enough to find the relevant source (or sources) and to grab it to your own database or a data lake for further analysis.
+        * My current role is great, it's challenging all the time, never the same, I learn so much about the IT market. 
+        * However, this is secondary research so most of the time I depend heavily on someone elses opinion. 
+        * But I don't want to lean on opinions, I want to create research which outcomes are based on rock solid input.
+    * This is also relevant to what I like doing in my private projects (when there are several conditions met: children asleep, not too late and I still have energy, no favorite TV series to watch, no jogging time, and my wife doesn't have other plans for my free time - I should mention this one in the first place)
+        * So it's a bit challenging to develop at home. 
+        * The common advice is: do at work what you like doing in your real life and get paid for it. 
+        * So this is what I'd like to combine - developing skills in what interests me most and living from it.
+* Why are you the best candidate for the role?
+    * This is probably the most common question and one of the toughest to answer. I won't say I am the best candidate, it would be arrogant, there's a decent chance there will be someone else more qualified than me.
+        * First this role is tailored to my competencies. I know how to scrape data, I know how to access APIs. Then I know how to cleanse, analyse and visualise data.
+        * Second, this is what I like doing, I spend my private time on finding value in data grabbed from the internet. So I am enthusiastic about the oportunity and I will stay enthusiastic about my job.
+        * If I apply for a job position, I really mean it. This is the first job interview I'm having since I started my current job 4 years ago.
+        * By the way if there was someone more qualified maybe it's even better. I love working with people smarter than me, a great oportunity to learn from others all the time. And then of course I do everything to keep pace with them.
+
+
+
+## My questions ##
 
 * If you wanted to convince me to take this job -
     whatever your final decision will be, for a moment please act as you intent to hire me -
