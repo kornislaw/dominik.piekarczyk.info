@@ -53,13 +53,22 @@ You can achieve the same with the scrapy shell.
 
 Example:
 
-`scrapy shell http://www.computon.pl`
+```scrapy shell http://www.computon.pl```
 
 This will open the given web page and you can start extracting information you need.
 
 Examples:
 
-`response.xpath('/html').extract()`
-`response.xpath('//a/text()').extract()`
+```
+response.xpath('/html').extract()
+response.xpath('//a/text()').extract()
+```
 
+A use case example, extracting current EUR/PLN price ratio:
+```bash
+% scrapy shell https://cinkciarz.pl/kantor/kursy-walut-cinkciarz-pl/eur
+>>> response.xpath('// *[ @ id = "page-text"] / section / div[1] / div[2] / div[4] / span / text()').extract()[0].strip()
+
+u'4,3529'
+```
 ##(To Be Continued....)

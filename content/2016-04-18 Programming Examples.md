@@ -6,7 +6,7 @@ Category: CV
 Tags: cv, python, programming
 Author: Dominik Piekarczyk
 
-BCCB - financial arbitrage
+<a name="bccb"></a> BCCB - financial arbitrage
 -------------------------
 
 This is my private project I was developing as a hobby in the last few months. It implements
@@ -34,10 +34,10 @@ Technical details worth highlighting:
 * and automatically reacts (or may react) to appearing opportunities with simultaneous transactions.
 
 
-Twitter Thought Leaders
+<a name="twitter"></a> Twitter Thought Leaders
 -----------------------
 
-#### tl;dr
+#### TL;DR
 
 The goal was to define a list of the top thought leaders in the blockchain community.
 It was done by analysing the network of Twitter accounts of the starting list of leaders
@@ -73,19 +73,19 @@ Another advantage is you can rerun this software cyclically to adjust the list a
 * We used a `cli` interface and then `ipython notebooks` for the analysis.
 
 
-Crunchbase Scraper
+<a name="crunchbase"></a> Crunchbase Scraper
 ------------------
 
 A small application I made to save time on gathering fintech companies' details and lists of their investors.
 It takes a list of companies' names and used Crunchbase's API to collect data in CSV for further analysis.
 
-Tech details:
+#### Tech details
 
 * Keywords: `Ruby`, `Sinatra`, `Bootstrap`, `Crunchbase API`, `rest`, `json`
 * Implemented both `web` and `cli` interfaces
 
 
-Reporting data transformation
+<a name="reporting"></a> Reporting data transformation
 -----------------------------
 
 Python scripts for cleaning, transforming and merging data in monthly reporting processes that were performed manually before.
