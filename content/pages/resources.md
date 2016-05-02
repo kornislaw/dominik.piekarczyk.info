@@ -34,6 +34,7 @@ I know I know - it's spreading.
 
 * 2015-09-29 - [Must Watch Data Science Videos from SciPy Conference 2015](http://www.analyticsvidhya.com/blog/2015/07/data-science-videos-scipy-2015/)
 * 2015-08-06 - [Top 50 Data Science Resources: The Best Blogs, Forums, Videos and Tutorials to Learn All about Data Science](http://www.ngdata.com/top-data-science-resources/)
+* 2016-04-27 - [A Tour of Machine Learning Algorithms](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
 
 * [What is Data Science](http://yanirseroussi.com/2014/10/23/what-is-data-science/)
 * [Top Data Science Books](http://www.datascienceweekly.org/data-science-resources/data-science-books)
