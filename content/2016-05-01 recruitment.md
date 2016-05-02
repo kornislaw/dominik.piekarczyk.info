@@ -4,7 +4,7 @@ Date: 2016-05-01
 Category: CV
 Tags: python, statistics
 Author: Dominik Piekarczyk
-
+Status: draft
 
 
 ## Your team ##
