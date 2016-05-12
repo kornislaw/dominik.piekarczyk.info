@@ -18,7 +18,7 @@ echo "export WORKON_HOME=~/.virtualenvs" >> ~/.zshrc
 echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.zshrc 
 ```
 (note: you may be using Bash, then it should be `.bashrc`, not `.zshrc`)
-
+(note: in Ubuntu I also had to add `:/home/kornislaw/.local/bin` to my `PATH` in `.zshrc`)
 
 #### Usage
 
