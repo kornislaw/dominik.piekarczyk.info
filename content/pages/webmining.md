@@ -16,7 +16,9 @@ Author: Dominik Piekarczyk
 * [CrawlerGo](http://www.crawlergo.com/)
 
 
-Source: (kdnuggets)[http://www.kdnuggets.com/2016/03/webhose-3-ways-extract-data-open-web.html]
+Sources: 
+[kdnuggets](http://www.kdnuggets.com/2016/03/webhose-3-ways-extract-data-open-web.html)
+
 
 
 
