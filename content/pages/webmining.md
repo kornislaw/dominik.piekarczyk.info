@@ -15,6 +15,10 @@ Author: Dominik Piekarczyk
 * [Dexi](https://dexi.io/)
 * [CrawlerGo](http://www.crawlergo.com/)
 
+## Crawled Web Databases
+
+* [Indix](https://www.indix.com)
+
 
 Sources: 
 [kdnuggets](http://www.kdnuggets.com/2016/03/webhose-3-ways-extract-data-open-web.html)
