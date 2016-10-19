@@ -20,6 +20,9 @@ Author: Dominik Piekarczyk
 * [Indix](https://www.indix.com)
 
 
+## More lists
+[20 scraping tools](http://www.rankred.com/web-scraping-tools/)
+
 Sources: 
 [kdnuggets](http://www.kdnuggets.com/2016/03/webhose-3-ways-extract-data-open-web.html)
 
