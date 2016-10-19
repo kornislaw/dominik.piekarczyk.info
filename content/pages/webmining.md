@@ -15,6 +15,8 @@ Author: Dominik Piekarczyk
 * [Dexi](https://dexi.io/)
 * [CrawlerGo](http://www.crawlergo.com/)
 
+* [Liberty Metrics](http://libertymetrics.com/solutions/works/)
+
 ## Crawled Web Databases
 
 * [Indix](https://www.indix.com)
