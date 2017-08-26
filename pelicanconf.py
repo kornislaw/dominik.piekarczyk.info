@@ -10,7 +10,7 @@ SITEURL = ''
 # EXTRA_TEMPLATES_PATHS = ['/Users/dominik/Documents/dev/tutorial-pelican/pelican-themes/']
 
 THEME = 'nest-korn'
-DISQUS_SITENAME = "towardsdatascience"
+DISQUS_SITENAME = "techbraindump"
 
 PATH = 'content'
 
@@ -43,12 +43,16 @@ RELATIVE_URLS = True
 
 # IPyNb plugin settings:
 MARKUP = ('md', 'ipynb')
-PLUGIN_PATHS = ["plugins", "./plugins", '/Users/dominik/Documents/dev/tutorial-pelican/pelican-plugins/']
-PLUGINS = ["ipynb", 'better_figures_and_images']
+# PLUGIN_PATHS = ["plugins", "./plugins", '/Users/dominik/Documents/dev/tutorial-pelican/pelican-plugins/']
+PLUGIN_PATHS = ["plugins", "./plugins"]
+#PLUGINS = ["ipynb", 'better_figures_and_images']
+PLUGINS = ["ipynb"]
+
+IGNORE_FILES = ['.ipynb_checkpoints']
 
 # NEST Template
 THEME = 'nest-korn'
-SITESUBTITLE = u'Data Science Info Dump'
+SITESUBTITLE = u'Tech Brain Dump'
 # Minified CSS
 #NEST_CSS_MINIFY = True
 # Add items to top menu before pages

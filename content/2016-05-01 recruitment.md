@@ -4,7 +4,7 @@ Date: 2016-05-01
 Category: CV
 Tags: python, statistics
 Author: Dominik Piekarczyk
-Status: draft
+--Status: draft
 
 
 ## Your team ##
@@ -115,12 +115,12 @@ to support executives and managers making strategic decisions for an organizatio
 * Why did you decide to apply to this role?
     * I am fascinated with this model "From Data to Wisdom". You start with raw data, then link pieces with relationship, therefore converting it to information. Then you recognize patterns, so you're converting it to knowledge. Then you apply the knowledge as your wisdom.
         * What's important in most cases data is out there, on the internet. It is enough to find the relevant source (or sources) and to grab it to your own database or a data lake for further analysis.
-        * My current role is great, it's challenging all the time, never the same, I learn so much about the IT market. 
-        * However, this is secondary research so most of the time I depend heavily on someone elses opinion. 
+        * My current role is great, it's challenging all the time, never the same, I learn so much about the IT market.
+        * However, this is secondary research so most of the time I depend heavily on someone elses opinion.
         * But I don't want to lean on opinions, I want to create research which outcomes are based on rock solid input.
     * This is also relevant to what I like doing in my private projects (when there are several conditions met: children asleep, not too late and I still have energy, no favorite TV series to watch, no jogging time, and my wife doesn't have other plans for my free time - I should mention this one in the first place)
-        * So it's a bit challenging to develop at home. 
-        * The common advice is: do at work what you like doing in your real life and get paid for it. 
+        * So it's a bit challenging to develop at home.
+        * The common advice is: do at work what you like doing in your real life and get paid for it.
         * So this is what I'd like to combine - developing skills in what interests me most and living from it.
 * Why are you the best candidate for the role?
     * This is probably the most common question and one of the toughest to answer. I won't say I am the best candidate, it would be arrogant, there's a decent chance there will be someone else more qualified than me.

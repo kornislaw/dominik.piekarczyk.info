@@ -1,7 +1,7 @@
 Title: Linux Howto's
 Subtitle: Handy tips and tricks and answers to common questions
 Date: 2016-01-12
-Status: draft
+
 
 
 ## How to add text to the BEGINNING of a file

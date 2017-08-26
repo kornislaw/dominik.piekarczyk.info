@@ -12,16 +12,16 @@ It appears configuring a Pelican instance to work with S3 is very easy. Below's 
 
 ## Near to zero costs
 
-The amazing thing with static web pages is that you can host them on storage sites. You don't need a web server engine, because there's nothing that needs to be caltulated or transformed. All content is pre-generated. 
+The amazing thing with static web pages is that you can host them on storage sites. You don't need a web server engine, because there's nothing that needs to be caltulated or transformed. All content is pre-generated.
 
 Due to this fact, you can use storage sites which usually are a much cheaper option than web hosting servers.
 
-S3 is an example; the name stands for Simple Storage Service. 
+S3 is an example; the name stands for Simple Storage Service.
 
 I used the S3 calculator and selected much more resources that I would potentially need:
 
-* 1GB storage, 
-* 100k GET requests, 
+* 1GB storage,
+* 100k GET requests,
 * 3k requests of other types
 
 In result I got a [calculated price of... $0.05 per month](http://calculator.s3.amazonaws.com/index.html#r=FRA&s=S3&key=calc-BF4C74D9-B8F6-4C6C-A442-60B3673C7EBD). Yes, 5 cents.
@@ -29,7 +29,7 @@ In result I got a [calculated price of... $0.05 per month](http://calculator.s3.
 
 ## Setting up S3
 
-I assume you already are a registered user of AWS. 
+I assume you already are a registered user of AWS.
 
 ### S3 bucket
 
@@ -40,7 +40,7 @@ First what you need to create is an S3 bucket where your site's files will be st
 In the bucket go to `Properties`:
 
 * click `Static Website Hosting`,
-* select `Enable website hosting`; 
+* select `Enable website hosting`;
 * as Index Document user: `index.html`
 * copy or bookmark the Endpoint link - this will be the working domain for your website
 

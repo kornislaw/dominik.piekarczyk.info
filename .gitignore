@@ -6,3 +6,5 @@ content/.ipynb_checkpoints
 output
 .idea
 .Rhistory
+__pycache__/*
+**/__pycache__
