@@ -1,4 +1,11 @@
+
+### Common commands
+
+```bash
 source ../bin/activate
+workon pelican
 fab regenerate
-workon tutorial
+make html
 pelican-themes --upgrade /Users/dominik/Documents/dev/workspaces/nest-korn --verbose
+make s3_upload
+```
