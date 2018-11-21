@@ -18,3 +18,5 @@ This is what I did and used to pass the exam for Professional Scrum Product Owne
   * During the exam, keeping at hand:
     * [Volkerdon Free Resources](https://www.volkerdon.com/pages/free-resources)
     * [Scrum Guide](https://d-baer.gitbooks.io/scrum-guide/content/scrum-guide.html) - HTML version, easily searchable
+    * [The Great Scrum Team](https://www.infoq.com/articles/great-scrum-team)
+      * Roles' responsibilities
