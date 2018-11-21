@@ -20,3 +20,4 @@ This is what I did and used to pass the exam for Professional Scrum Product Owne
     * [Scrum Guide](https://d-baer.gitbooks.io/scrum-guide/content/scrum-guide.html) - HTML version, easily searchable
     * [The Great Scrum Team](https://www.infoq.com/articles/great-scrum-team)
         * Roles' responsibilities
+    * [Scrum's Evidence Based Methodology](https://mgrush.com/blog/2017/05/18/evidence-based-methodology/)
