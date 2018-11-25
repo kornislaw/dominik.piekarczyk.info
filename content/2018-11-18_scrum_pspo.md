@@ -21,3 +21,5 @@ This is what I did and used to pass the exam for Professional Scrum Product Owne
     * [The Great Scrum Team](https://www.infoq.com/articles/great-scrum-team)
         * Roles' responsibilities
     * [Scrum's Evidence Based Methodology](https://mgrush.com/blog/2017/05/18/evidence-based-methodology/)
+    * [Quizlet PSM Questions](https://quizlet.com/41476200/the-agile-scrum-guide-flash-cards/) - 148b questions with answers, I have learnt them all first.
+    * [Quizlet Scrum Questions](https://quizlet.com/243461786/scrum-flash-cards/) - 78 questions with answers, I have learnt them all first
