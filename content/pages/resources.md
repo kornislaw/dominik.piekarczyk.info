@@ -1,8 +1,8 @@
-Title: Data Science Resources
+Title: Sofware Dev & Data Science Resources
 Subtitle: A bookmark list for resources that seem to be interesting enough to keep and share.
-Date: 2015-09-29
-Category: Data Science
-Tags: data science
+Date: 2018-11-27
+Category: Data Science, Software Development
+Tags: data science, software development
 Author: Dominik Piekarczyk
 
 <p>
@@ -10,6 +10,16 @@ Author: Dominik Piekarczyk
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </p>
 
+# Software Development
+
+## Free Books Resources
+
+* https://devfreebooks.github.io/
+* https://ebookfoundation.github.io/free-programming-books/
+* http://hackershelf.com/browse/?popular=1
+* https://hackr.io/
+
+# Data Science
 
 ## What is Data Science?
 
@@ -30,12 +40,12 @@ Author: Dominik Piekarczyk
 best introductory course I have taken.
 
 ## Other lists resources
-I know I know - it's spreading.
+I know I know - it keeps expanding.
 
 * 2015-09-29 - [Must Watch Data Science Videos from SciPy Conference 2015](http://www.analyticsvidhya.com/blog/2015/07/data-science-videos-scipy-2015/)
 * 2015-08-06 - [Top 50 Data Science Resources: The Best Blogs, Forums, Videos and Tutorials to Learn All about Data Science](http://www.ngdata.com/top-data-science-resources/)
 * 2016-04-27 - [A Tour of Machine Learning Algorithms](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
-* 2016-05-05 - [19 Data Science Tools for people who arenâ€™t so good at Programming](http://www.analyticsvidhya.com/blog/2016/05/19-data-science-tools-for-people-dont-understand-coding/)
+* 2016-05-05 - [19 Data Science Tools for people who aren’t so good at Programming](http://www.analyticsvidhya.com/blog/2016/05/19-data-science-tools-for-people-dont-understand-coding/)
 * [What is Data Science](http://yanirseroussi.com/2014/10/23/what-is-data-science/)
 * [Top Data Science Books](http://www.datascienceweekly.org/data-science-resources/data-science-books)
 * [Machine Learning Mastery](http://machinelearningmastery.com/start-here)
