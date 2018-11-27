@@ -22,13 +22,11 @@ To connect this way you need to download the private key first. You'll see a lin
 
 The next step is changing access permissions to the file, for me it was:
 
-`% chmod 600 ~/.ssh/LightsailDefaultPrivateKey-eu-central-1.pem`
+`chmod 600 ~/.ssh/LightsailDefaultPrivateKey-eu-central-1.pem`
 
 Then you can sign in:
 
-```
-% ssh user@182.124.162.227 -i ~/.ssh/LightsailDefaultPrivateKey-eu-central-1.pem
-```
+`ssh user@182.124.162.227 -i ~/.ssh/LightsailDefaultPrivateKey-eu-central-1.pem`
 
 ```shell
 ubuntu@ip-172-26-4-72:~$ cat ~/.bash_history
