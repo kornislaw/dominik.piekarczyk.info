@@ -1,4 +1,4 @@
-Title: Playing Minecraft Pi with son
+Title: Playing Minecraft Pi with My Son
 Subtitle: Minecraft Pi is a great entry point for teaching a real programming language.
 Slug: playing-minecraft-with-son
 Category: Family
@@ -9,7 +9,7 @@ Date: 2017-08-26
 ### What is Minecraft Pi
 
 
-This is a simplified version of Minecraft, which you get preinstalled on Raspberry Pis. The adventage of this version is that for programming purposes you have all set up and ready. You can just run the Python console and start building.
+This is a simplified version of Minecraft, which you get preinstalled on Raspberry Pi. The adventage of this version is that for programming purposes you have all set up and ready. You can just run the Python console and start building.
 
 #### Example
 

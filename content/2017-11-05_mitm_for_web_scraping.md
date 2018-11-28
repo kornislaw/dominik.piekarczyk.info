@@ -1,8 +1,9 @@
-Title: Web Scraping Mobile Apps
+Title: MITM for Web Scraping
 Subtitle: How to read mobile traffic to get data from API servers
 Category: Cloud
 Tags: AWS, cloud
 Date: 2017-09-30
+Status: draft
 
 # AWS Lightstail
 
