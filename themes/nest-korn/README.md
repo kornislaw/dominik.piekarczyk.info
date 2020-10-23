@@ -1,67 +1,71 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
+# Nest-korn
 
-AUTHOR = u'Dominik Piekarczyk'
-SITENAME = u'dominik.piekarczyk.info'
-SITEURL = ''
+Nest-korn is a theme for [Pelican](http://getpelican.com) 3.5+, a static site generator written in Python.
+
+This theme is forked from Nest, made by [Matthieu OLIVIER and used in his blog](http://www.molivier.com), which I found the best in [a long list of all themes available](http://pelicanthemes.com/). Thanks Matthieu for your great work!
+
+I'm renaming the theme to make it easier to keep both themes in the same directory.
+
+Following is the instruction for the original theme, which applies to my fork as well.
+
+## Screenshots
+
+### Homepage
+
+![Nest Index View](homepage.png)
+
+### Homepage with background
+
+![Nest Article View](homepage-background.png)
+
+Add a background image by configuring `NEST_HEADER_IMAGES` parameter in your pelican.conf. Image should be located in `content/images` directory.
+
+### Article
+
+![Nest Index View](article.png)
+
+### Article or page with background
+
+![Nest Article View](article-background.png)
+
+Add a background image by adding `Illustration` custom parameter in your markdown article or page. Image should be located in `content/images` directory.
+
+	Title: Ubuntu Install
+	Date: 2015-02-18 16:00
+	Category: server
+	Tags: ubuntu, kernel
+	Slug: ubuntu-install
+	Author: Matthieu OLIVIER
+	Illustration: background.jpg
 
 
-# EXTRA_TEMPLATES_PATHS = ['/Users/dominik/Documents/dev/tutorial-pelican/pelican-themes/']
+## Features
 
-THEME = 'nest-korn'
-DISQUS_SITENAME = "techbraindump"
+* Featured site header image
+* Featured article header image
+* **Pygments** syntax highlighting
+* **Disqus** support for comments
+* **Google Analytics** support
+* **Piwik** support
+* RSS and Atom feeds
 
-PATH = 'content'
+## Settings
 
-TIMEZONE = 'Europe/Warsaw'
+Nest template can be customized by adding parameters to your `pelicanconf.py` file. Template specifics parameters are prefixed with template name.
 
-DEFAULT_LANG = u'en'
+### Pelican.conf example
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),)
-
-# Social widget
-SOCIAL = (('twitter', 'http://twitter.com/kornislaw'),
-          ('github', 'http://github.com/kornislaw'),
-          ('linked', 'https://www.linkedin.com/in/dominik-piekarczyk-4ab1b83')
-          )
-
-
-DEFAULT_PAGINATION = 25
-
-# Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
-
-# IPyNb plugin settings:
-MARKUP = ('md', 'ipynb')
-# PLUGIN_PATHS = ["plugins", "./plugins", '/Users/dominik/Documents/dev/tutorial-pelican/pelican-plugins/']
-PLUGIN_PATHS = ["plugins", "./plugins"]
-#PLUGINS = ["ipynb", 'better_figures_and_images']
-PLUGINS = ["ipynb"]
-
-IGNORE_FILES = ['.ipynb_checkpoints']
-
+```python
 # NEST Template
-THEME = 'themes/nest-korn'
-SITESUBTITLE = u'Tech Brain Dump'
+THEME = 'nest'
+SITESUBTITLE = u'My Awesome Blog'
 # Minified CSS
-#NEST_CSS_MINIFY = True
+NEST_CSS_MINIFY = True
 # Add items to top menu before pages
 MENUITEMS = [('Homepage', '/'),('Categories','/categories.html')]
 # Add header background image from content/images : 'background.jpg'
 NEST_HEADER_IMAGES = ''
-#NEST_HEADER_LOGO = '/images/logo.svg'
-NEST_HEADER_LOGO = '/images/compuhead.png'
-
+NEST_HEADER_LOGO = '/image/logo.png'
 # Footer
 NEST_SITEMAP_COLUMN_TITLE = u'Sitemap'
 NEST_SITEMAP_MENU = [('Archives', '/archives.html'),('Tags','/tags.html'), ('Authors','/authors.html')]
@@ -71,11 +75,11 @@ NEST_SOCIAL_COLUMN_TITLE = u'Social'
 NEST_LINKS_COLUMN_TITLE = u'Links'
 NEST_COPYRIGHT = u'&copy; blogname 2015'
 # Footer optional
-NEST_FOOTER_HTML = '&copy; 2015-2016 dominik.piekarczyk.info'
+NEST_FOOTER_HTML = ''
 # index.html
 NEST_INDEX_HEAD_TITLE = u'Homepage'
-NEST_INDEX_HEADER_TITLE = SITESUBTITLE
-NEST_INDEX_HEADER_SUBTITLE = u'A notebook for recording and sharing valuable information. 2 in 1.'
+NEST_INDEX_HEADER_TITLE = u'My Awesome Blog'
+NEST_INDEX_HEADER_SUBTITLE = u'Smashing The Stack For Fun And Profit'
 NEST_INDEX_CONTENT_TITLE = u'Last Posts'
 # archives.html
 NEST_ARCHIVES_HEAD_TITLE = u'Archives'
@@ -120,7 +124,7 @@ NEST_PERIOD_ARCHIVES_CONTENT_TITLE = u'Archives for'
 NEST_TAG_HEAD_TITLE = u'Tag archives'
 NEST_TAG_HEAD_DESCRIPTION = u'Tag archives'
 NEST_TAG_HEADER_TITLE = u'Tag'
-NEST_TAG_HEADER_SUBTITLE = u'Archives tagged with '
+NEST_TAG_HEADER_SUBTITLE = u'Tag archives'
 # tags.html
 NEST_TAGS_HEAD_TITLE = u'Tags'
 NEST_TAGS_HEAD_DESCRIPTION = u'Tags List'
@@ -128,7 +132,19 @@ NEST_TAGS_HEADER_TITLE = u'Tags'
 NEST_TAGS_HEADER_SUBTITLE = u'Tags List'
 NEST_TAGS_CONTENT_TITLE = u'Tags List'
 NEST_TAGS_CONTENT_LIST = u'tagged'
+# Static files
+STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico', 'extra/logo.svg']
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/logo.svg': {'path': 'logo.svg'}
+}
+```
 
 
-# Background color for code snippets. Not a great place to store this info, but the pygment styles are reloaded by ipynb styles.
-IPYNB_CODE_BG_COLOR = '#333'
+## Third-party assets
+
+The theme uses external softwares, scripts, libraries and artworks:
+
+* [Bootstrap](http://getbootstrap.com/) 3.x.x
+* [Open Sans Font](http://www.google.com/fonts/specimen/Open+Sans)
