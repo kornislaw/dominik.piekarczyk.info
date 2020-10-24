@@ -1,7 +1,7 @@
 Title: S3 for static website hosting
 Subtitle: Using AWS S3 for hosting static sites
 Slug: s3-for-static-website-hosting
-Category: Website
+Category: cloud
 Tags: aws, s3, pelican
 Date: 2016-01-13
 
