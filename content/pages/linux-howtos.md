@@ -1,6 +1,7 @@
 Title: Howto's
 Subtitle: Handy tips and tricks and answers to common questions
 Date: 2016-01-12
+Status: hidden
 
 
 

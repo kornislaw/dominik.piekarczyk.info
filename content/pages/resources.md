@@ -4,6 +4,7 @@ Date: 2018-11-27
 Category: Knowledge Resources
 Tags: data science, software development
 Author: Dominik Piekarczyk
+Status: hidden
 
 
 # Software Development

@@ -10,7 +10,7 @@ SITEURL = ''
 # EXTRA_TEMPLATES_PATHS = ['/Users/dominik/Documents/dev/tutorial-pelican/pelican-themes/']
 
 THEME = 'nest-korn'
-DISQUS_SITENAME = "techbraindump"
+#DISQUS_SITENAME = "techbraindump"
 
 PATH = 'content'
 
@@ -52,7 +52,7 @@ IGNORE_FILES = ['.ipynb_checkpoints']
 
 # NEST Template
 THEME = 'themes/nest-korn'
-SITESUBTITLE = u'Tech Brain Dump'
+SITESUBTITLE = u'Tech Notes'
 # Minified CSS
 #NEST_CSS_MINIFY = True
 # Add items to top menu before pages
@@ -75,7 +75,7 @@ NEST_FOOTER_HTML = '&copy; 2015-2020 dominik.piekarczyk.info'
 # index.html
 NEST_INDEX_HEAD_TITLE = u'Homepage'
 NEST_INDEX_HEADER_TITLE = SITESUBTITLE
-NEST_INDEX_HEADER_SUBTITLE = u'A notebook for recording and sharing valuable information. 2 in 1.'
+NEST_INDEX_HEADER_SUBTITLE = u'My scratchpad for dumping tech notes.'
 NEST_INDEX_CONTENT_TITLE = u'Last Posts'
 # archives.html
 NEST_ARCHIVES_HEAD_TITLE = u'Archives'

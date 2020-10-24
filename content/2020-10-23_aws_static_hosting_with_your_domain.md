@@ -7,6 +7,8 @@ Date: 2020-10-23
 My domain for the static website
 ================================
 
+(NOTE: I found [an article](https://medium.com/@matthewmanuel/hosting-a-https-static-website-on-amazon-s3-w-cloudfront-and-route-53-f347a16b6a91) which seems to describe the whole solution perfectly well. I'm not going to reinvent the wheel, below are my extra notes for things I had issues with.)
+
 As I am preparing myself to an Software Architect Associate exam, I've decided to undust this blog and make a few improvements.
 
 The first one is linking it to an own domain. Today I've bought `piekarczyk.info`, still available, apparently my last name is not that popular - good for me :)
@@ -22,6 +24,9 @@ Quick notes:
   * AWS CloudFront documentation should be good enough.
     * There is an SSL certificate which you can add in the form. If you use Route 53 you can set it up on the fly, it takes 2 minutes. Though, I had to refresh the form to have it available on the list.
     * Remember to set index.html as the Default Root Object. Otherwise the domain with the root path (i.e. https://dominik.piekarczyk.info/) will return an access error.
+
+![Scrapy Logo](images/2020-10-24_static_website_aws.png)
+
 
 I think in the future I will move this blog somewhere else. There are so many convinient solutions out there, where I can easily edit the content online, configure a CI/CD, etc. Though, for the time of preparations to the exam I stick to AWS.
 
